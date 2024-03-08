@@ -1,2 +1,2 @@
-# QA-Junior-Challenge
+# QA Junior Challenge
 ⚡ Creation of Acceptance Criteria, Use Cases, and Bug Reporting.
