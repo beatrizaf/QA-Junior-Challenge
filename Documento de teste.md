@@ -31,7 +31,7 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 - Os componentes das interfaces de login, cadastro e mudança de senha devem estar alinhados e seguir padrões estéticos consistentes.
 - A disposição dos elementos nas telas devem ser intuitivas e proporcionar uma experiência visual agradável.
 
-###2.2 Login no aplicativo
+### 2.2 Login no aplicativo
 
 **Interface de Login:**
 
