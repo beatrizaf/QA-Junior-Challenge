@@ -7,14 +7,16 @@ Este documento tem como objetivo validar e assegurar a qualidade das User storie
 As User stories abaixo são funcionalidades do ponto de vista do usuário.
 
 **1.** Como usuário mobile, quero fazer login no aplicativo para acessar de forma segura e rápida as funcionalidades exclusivas;
+
 **2.** Como usuário mobile, quero redefinir minha senha para garantir a segurança da minha conta;
+
 **3.** Como usuário mobile, quero criar uma nova conta para desfrutar de todos os recursos e benefícios exclusivos do aplicativo.
 
 ## 2. Critérios de aceitação
 ---
 Os critérios de aceitação abaixo são condições específicas e mensuráveis que definem se a história do usuário é considerada completa e atende às expectativas do cliente ou do usuário.
 
-#### 2.1 Critérios em comum para todas as User stories:
+### 2.1 Critérios em comum para todas as User stories:
 
 **Acessibilidade:**
 
@@ -29,7 +31,7 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 - Os componentes das interfaces de login, cadastro e mudança de senha devem estar alinhados e seguir padrões estéticos consistentes.
 - A disposição dos elementos nas telas devem ser intuitivas e proporcionar uma experiência visual agradável.
 
-#### 2.2 Login no aplicativo
+###2.2 Login no aplicativo
 
 **Interface de Login:**
 
@@ -51,7 +53,7 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 - Após um login bem-sucedido, o usuário deve receber feedback visual para confirmar o acesso.
 - Em caso de falha no login, o sistema deve apresentar uma mensagem de erro clara, indicando a   natureza do problema.
 
-#### 2.3 Redefinir senha
+### 2.3 Redefinir senha
 
 **Acesso à Recuperação de Senha:**
 
@@ -79,7 +81,7 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 
 - O sistema deve notificar o usuário de que a senha foi alterada com sucesso.
 
-#### 2.4 Cadastro de conta
+### 2.4 Cadastro de conta
 
 **Interface de Cadastro:**
 
@@ -109,7 +111,7 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 ## 3. Casos de teste
 ---
 
-#### 3.1 Casos de uso de Login
+### 3.1 Casos de uso de Login
 
 `Caso de teste 1:`
 
@@ -201,7 +203,7 @@ Critério de aceitação:
 
 Tempo de execução estimado: 5 minutos, incluindo tentativas de login e espera pelo bloqueio.
 
-#### 3.2 Casos de uso de Mudança de senha
+### 3.2 Casos de uso de Mudança de senha
 
 `Caso de teste 1:`
 
@@ -289,7 +291,7 @@ Critério de aceitação:
 
 Tempo de execução estimado: 10 minutos.
 
-#### 3.3 Casos de uso de Cadastro
+### 3.3 Casos de uso de Cadastro
 
 `Caso de teste 1:`
 
