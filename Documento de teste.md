@@ -12,11 +12,17 @@ As User stories abaixo são funcionalidades do ponto de vista do usuário.
 
 **3.** Como usuário mobile, quero criar uma nova conta para desfrutar de todos os recursos e benefícios exclusivos do aplicativo.
 
+<br>
+
 ## 2. Critérios de aceitação
 ---
 Os critérios de aceitação abaixo são condições específicas e mensuráveis que definem se a história do usuário é considerada completa e atende às expectativas do cliente ou do usuário.
 
-### 2.1 Critérios em comum para todas as User stories:
+<br>
+
+>## 2.1 Critérios em comum para todas as User stories:
+
+<br>
 
 **Acessibilidade:**
 
@@ -31,7 +37,11 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 - Os componentes das interfaces de login, cadastro e mudança de senha devem estar alinhados e seguir padrões estéticos consistentes.
 - A disposição dos elementos nas telas devem ser intuitivas e proporcionar uma experiência visual agradável.
 
-### 2.2 Login no aplicativo
+<br>
+
+>## 2.2 Login no aplicativo
+
+<br>
 
 **Interface de Login:**
 
@@ -53,7 +63,11 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 - Após um login bem-sucedido, o usuário deve receber feedback visual para confirmar o acesso.
 - Em caso de falha no login, o sistema deve apresentar uma mensagem de erro clara, indicando a   natureza do problema.
 
-### 2.3 Redefinir senha
+<br>
+
+>## 2.3 Redefinir senha
+
+<br>
 
 **Acesso à Recuperação de Senha:**
 
@@ -81,7 +95,11 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 
 - O sistema deve notificar o usuário de que a senha foi alterada com sucesso.
 
-### 2.4 Cadastro de conta
+<br>
+
+>## 2.4 Cadastro de conta
+
+<br>
 
 **Interface de Cadastro:**
 
@@ -107,18 +125,24 @@ Os critérios de aceitação abaixo são condições específicas e mensuráveis
 - Não deve ser possível cadastrar mais de uma conta com o mesmo endereço de e-mail.
 - As informações de cadastro devem ser devidamente armazenadas nos servidores do aplicativo de forma segura.
 
+<br>
 
 ## 3. Casos de teste
 ---
 
-### 3.1 Casos de uso de Login
+>## 3.1 Casos de uso de Login
+
+<br>
 
 `Caso de teste 1:`
 
 Título: Login bem-sucedido
+
 Código: 001
+
 Descrição: Este caso de teste visa verificar o comportamento do sistema quando um usuário realiza um login bem-sucedido.
 Pré-condições: O usuário possui uma conta válida e ativa.
+
 Passo de execução:
 1. Acesse a página de login.
 2. Insira um nome de usuário válido.
@@ -138,6 +162,8 @@ Critério de aceitação:
 - Não devem ocorrer mensagens de erro durante o processo de login.
 
 Tempo de execução estimado: 1 minuto, incluindo o tempo para inserção de dados e redirecionamento.
+
+<br>
 
 `Caso de teste 2:`
 
@@ -169,6 +195,8 @@ Critério de aceitação:
 - Não deve haver acesso concedido com credenciais inválidas.
 
 Tempo de execução estimado: 1 minuto, incluindo o tempo para inserção de dados e exibição da mensagem de erro.
+
+<br>
 
 `Caso de teste 3:`
 
@@ -203,7 +231,11 @@ Critério de aceitação:
 
 Tempo de execução estimado: 5 minutos, incluindo tentativas de login e espera pelo bloqueio.
 
-### 3.2 Casos de uso de Mudança de senha
+<br>
+
+>## 3.2 Casos de uso de Mudança de senha
+
+<br>
 
 `Caso de teste 1:`
 
@@ -232,6 +264,8 @@ Critério de aceitação:
 - O e-mail deve conter um link funcional que direcione o usuário para a página de redefinição de senha.
 
 Tempo de execução estimado: 3 minutos, considerando a inserção do e-mail e a chegada do link. 
+
+<br>
 
 `Caso de teste 2:`
 
@@ -263,6 +297,8 @@ Critério de aceitação:
 
 Tempo de execução estimado: 5 minutos
 
+<br>
+
 `Caso de teste 3:`
 
 Título: Expiração de link de redefinição
@@ -291,7 +327,11 @@ Critério de aceitação:
 
 Tempo de execução estimado: 10 minutos.
 
-### 3.3 Casos de uso de Cadastro
+<br>
+
+>## 3.3 Casos de uso de Cadastro
+
+<br>
 
 `Caso de teste 1:`
 
@@ -323,6 +363,8 @@ Critério de aceitação:
 
 Tempo de execução estimado: 3 minutos
 
+<br>
+
 `Caso de teste 2:`
 
 Título: Cadastro com e-mail existente
@@ -352,6 +394,8 @@ Critério de aceitação:
 
 Tempo de execução estimado: 3 minutos
 
+<br>
+
 `Caso de teste 3:`
 
 Título: Dados armazenados no servidor
@@ -375,6 +419,8 @@ Critério de aceitação:
 - Senhas devem ser armazenadas de forma criptografada e não devem ser recuperáveis em texto claro.
 
 Tempo de execução estimado: O tempo estimado para a execução deste caso de teste é de 10 minutos, considerando a análise da estrutura de armazenamento no servidor.
+
+<br>
 
 ## 4. Report de bug
 ---
